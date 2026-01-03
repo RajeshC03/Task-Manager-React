@@ -1,0 +1,25 @@
+.app
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  width: 80%;
+  box-shadow: 2px 2px 4px 4px rgba(73, 64, 64, 0.397);
+  padding: 20px;
+  margin: 140px auto;
+  border-radius:20px ;
+}
+
+
+.header
+{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(56, 7, 156);
+  text-shadow: 1px 1px 2px gray;
+  text-decoration: underline;
+  /* margin-bottom: 10px; */
+}

@@ -1,0 +1,101 @@
+.todo-app
+{
+    border:2px solid rgba(255, 0, 0, 0.514);
+    border-radius: 4px;
+    width: 60%;
+    padding: 10px;
+    box-shadow: 2px 2px 10px 1px black;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.add-item
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+hr
+{
+    width: 100%;
+    background-color: gray;
+}
+
+.items
+{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+.items .item
+{
+    box-shadow: 2px 2px 10px 3px  rgba(50, 19, 176, 0.283);
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.items .item p
+{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+
+
+
+/*  Pop up message  */
+
+
+/* .message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+} */
+
+/* Same element has both message class and error/success class */
+/* .message.error {
+    color: red;
+}
+
+.message.success {
+    color: green;
+} */
+
+
+.message {
+    border:3px solid gray;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    visibility: hidden;
+}
+
+.message.show {
+    visibility: visible;
+}
+
+
+.message.error {
+    background-color: rgb(224, 224, 89);
+    color: red;
+}
+
+.message.success {
+    background-color: rgb(230, 218, 218);
+    color: green;
+}

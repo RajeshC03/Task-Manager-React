@@ -1,0 +1,40 @@
+.btn
+{
+    padding: 5px 15px;
+    color: white;
+    border-radius: 3px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border: none;
+    text-transform: capitalize;
+}
+
+.btn-danger
+{
+    background-color: rgb(186, 23, 23);
+}
+
+.btn-danger:active
+{
+    background-color: rgb(120, 27, 27);
+}
+
+.btn-success
+{
+    background-color: rgb(13, 110, 13);
+}
+
+.btn-success:active
+{
+    background-color: rgb(15, 51, 15);
+}
+
+.btn-primary
+{
+    background-color: rgb(55, 11, 158);
+}
+
+.btn-primary:active
+{
+    background-color:rgb(20, 9, 46);
+}
